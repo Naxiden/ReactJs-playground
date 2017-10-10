@@ -1,12 +1,6 @@
-import React, {Component} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Links
-
-} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 
 const Topic = ({ match }) => (
   <div>
